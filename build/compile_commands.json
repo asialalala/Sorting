@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/main.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/main.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/main.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/mergeSort.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/mergeSort.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/mergeSort.cpp"
+}
+]
