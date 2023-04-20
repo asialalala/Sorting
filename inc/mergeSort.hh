@@ -1,5 +1,5 @@
 #include <vector>
 #include <iostream>
 
-void merge(std::vector < int > &in, std::vector < int > &out, int i, int j); 
-std::vector <int> mergeSort(std::vector < int > & S);
+std::vector <int> merge(std::vector<int>& in, std::vector<int>& out, int b, int m); 
+void mergeSort(std::vector<int>& S);
