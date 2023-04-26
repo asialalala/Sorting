@@ -129,6 +129,30 @@ Sorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/build
 .PHONY : Sorting/fast
 
+src/introspectiveSort.o: src/introspectiveSort.cpp.o
+.PHONY : src/introspectiveSort.o
+
+# target to build an object file
+src/introspectiveSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o
+.PHONY : src/introspectiveSort.cpp.o
+
+src/introspectiveSort.i: src/introspectiveSort.cpp.i
+.PHONY : src/introspectiveSort.i
+
+# target to preprocess a source file
+src/introspectiveSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.i
+.PHONY : src/introspectiveSort.cpp.i
+
+src/introspectiveSort.s: src/introspectiveSort.cpp.s
+.PHONY : src/introspectiveSort.s
+
+# target to generate assembly for a file
+src/introspectiveSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.s
+.PHONY : src/introspectiveSort.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sorting"
+	@echo "... src/introspectiveSort.o"
+	@echo "... src/introspectiveSort.i"
+	@echo "... src/introspectiveSort.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

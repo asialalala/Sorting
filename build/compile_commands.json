@@ -13,5 +13,10 @@
   "directory": "/Users/asialalala/Programy/C++/Sorting/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/quickSort.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/quickSort.cpp",
   "file": "/Users/asialalala/Programy/C++/Sorting/src/quickSort.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/introspectiveSort.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/introspectiveSort.cpp"
 }
 ]
