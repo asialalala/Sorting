@@ -1,15 +1,50 @@
-CMakeFiles/Sorting.dir/src/main.cpp.o: \
- /Users/asialalala/Programy/C++/Sorting/src/main.cpp \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
+CMakeFiles/Sorting.dir/src/quickSort.cpp.o: \
+ /Users/asialalala/Programy/C++/Sorting/src/quickSort.cpp \
+ /Users/asialalala/Programy/C++/Sorting/inc/quickSort.hh \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/vector \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_algobase.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++config.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/os_defines.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/cpu_defines.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/pstl/pstl_config.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functexcept.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/exception_defines.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/cpp_type_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/type_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/numeric_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_pair.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/move.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/type_traits \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/concept_check.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/debug/assertions.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ptr_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/debug/debug.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/predefined_ops.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/allocator.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++allocator.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/new_allocator.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/new \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/exception.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/memoryfwd.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_construct.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_uninitialized.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/alloc_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/alloc_traits.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_vector.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/initializer_list \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_bvector.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functional_hash.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/hash_bytes.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/range_access.h \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ios \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iosfwd \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stringfwd.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/memoryfwd.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/postypes.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cwchar \
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wchar.h \
@@ -62,32 +97,12 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h \
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/runetype.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/exception \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/exception.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/exception_ptr.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/exception_defines.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include/stddef.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/typeinfo \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/hash_bytes.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/new \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/nested_exception.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/move.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/type_traits \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/char_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_algobase.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functexcept.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/cpp_type_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/type_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/numeric_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_pair.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_types.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator_base_funcs.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/concept_check.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/debug/assertions.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_iterator.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ptr_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/debug/debug.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/predefined_ops.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cstdint \
  /usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include/stdint.h \
  /usr/local/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/x86_64-apple-darwin20/11/include-fixed/stdint.h \
@@ -127,21 +142,12 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/atomic_word.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/locale_classes.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/string \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/allocator.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++allocator.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/new_allocator.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream_insert.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/cxxabi_forced.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_function.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/backward/binders.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/range_access.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/initializer_list \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_string.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/alloc_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/alloc_traits.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_construct.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/string_view \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/functional_hash.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/string_view.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ext/string_conversions.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cstdlib \
@@ -197,11 +203,4 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_ios.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/vector \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_uninitialized.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_vector.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_bvector.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc \
- /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh \
- /Users/asialalala/Programy/C++/Sorting/inc/quickSort.hh
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc

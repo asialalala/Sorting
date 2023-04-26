@@ -177,6 +177,30 @@ src/mergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/mergeSort.cpp.s
 .PHONY : src/mergeSort.cpp.s
 
+src/quickSort.o: src/quickSort.cpp.o
+.PHONY : src/quickSort.o
+
+# target to build an object file
+src/quickSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/quickSort.cpp.o
+.PHONY : src/quickSort.cpp.o
+
+src/quickSort.i: src/quickSort.cpp.i
+.PHONY : src/quickSort.i
+
+# target to preprocess a source file
+src/quickSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/quickSort.cpp.i
+.PHONY : src/quickSort.cpp.i
+
+src/quickSort.s: src/quickSort.cpp.s
+.PHONY : src/quickSort.s
+
+# target to generate assembly for a file
+src/quickSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/quickSort.cpp.s
+.PHONY : src/quickSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/mergeSort.o"
 	@echo "... src/mergeSort.i"
 	@echo "... src/mergeSort.s"
+	@echo "... src/quickSort.o"
+	@echo "... src/quickSort.i"
+	@echo "... src/quickSort.s"
 .PHONY : help
 
 

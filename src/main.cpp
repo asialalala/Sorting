@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "mergeSort.hh"
+#include "quickSort.hh"
 
 int main()
 {
@@ -13,10 +14,16 @@ int main()
     data.push_back( 1 );
     data.push_back( 9 );
     data.push_back( 7 );
+    data.push_back( 100 );
+    data.push_back( 3 );
+    data.push_back( 98 );
+    data.push_back( 74 );
+    data.push_back( 29 );
+    data.push_back( 0 );
    
 
 
-    mergeSort(data);
+    quickSort(data);
 
     for( size_t i = 0; i < data.size(); i++ )
          printf( "%d, ", data[ i ] );

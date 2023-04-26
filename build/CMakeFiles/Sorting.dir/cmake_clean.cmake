@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sorting.dir/src/main.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o"
   "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o.d"
+  "CMakeFiles/Sorting.dir/src/quickSort.cpp.o"
+  "CMakeFiles/Sorting.dir/src/quickSort.cpp.o.d"
   "Sorting"
   "Sorting.pdb"
 )

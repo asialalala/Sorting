@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/asialalala/Programy/C++/Sorting/src/main.cpp" "CMakeFiles/Sorting.dir/src/main.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/main.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/src/mergeSort.cpp" "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o.d"
+  "/Users/asialalala/Programy/C++/Sorting/src/quickSort.cpp" "CMakeFiles/Sorting.dir/src/quickSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/quickSort.cpp.o.d"
   )
 
 # Targets to which this target links.
