@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/asialalala/Programy/C++/Sorting/src/heapSort.cpp" "CMakeFiles/Sorting.dir/src/heapSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/heapSort.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/src/introspectiveSort.cpp" "CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/src/main.cpp" "CMakeFiles/Sorting.dir/src/main.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/main.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/src/mergeSort.cpp" "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o" "gcc" "CMakeFiles/Sorting.dir/src/mergeSort.cpp.o.d"

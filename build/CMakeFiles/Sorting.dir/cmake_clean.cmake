@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sorting.dir/src/heapSort.cpp.o"
+  "CMakeFiles/Sorting.dir/src/heapSort.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o"
   "CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/main.cpp.o"

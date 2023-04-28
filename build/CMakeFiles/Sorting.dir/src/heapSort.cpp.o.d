@@ -1,6 +1,6 @@
-CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o: \
- /Users/asialalala/Programy/C++/Sorting/src/introspectiveSort.cpp \
- /Users/asialalala/Programy/C++/Sorting/inc/introspctiveSort.hh \
+CMakeFiles/Sorting.dir/src/heapSort.cpp.o: \
+ /Users/asialalala/Programy/C++/Sorting/src/heapSort.cpp \
+ /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/vector \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_algobase.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++config.h \
@@ -40,7 +40,6 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/hash_bytes.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/range_access.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc \
- /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ios \
@@ -204,5 +203,4 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_ios.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
- /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc

@@ -1,9 +1,14 @@
-#include "quickSort.hh"
+#include "introspctiveSort.hh"
 
-void quickSortStep(std::vector<int>& S, int z, int n)
+void introspectiveSortStep(std::vector<int>& S, int z, int n)
 {
-    if (z >= n) //when it is sorted
+        if (z >= n) //when it is sorted
         return;
+        
+    if (maxElements >= n) {
+        heapSort(S);
+        return;
+     } // start merge sorting
 
     int pivot = z + rand() % (n - z + 1); // choos pivot at random from range which is unsorted
     std::swap(S[pivot],S[n]);
@@ -19,16 +24,20 @@ void quickSortStep(std::vector<int>& S, int z, int n)
             std::swap(S[l],S[r]); 
     }
     std::swap(S[l],S[n]);
-    quickSortStep(S, z, l - 1); // sort left side
-    quickSortStep(S, l+1, n); // sort right side
-
+    introspectiveSortStep(S, z, l - 1); // sort left side
+    introspectiveSortStep(S, l+1, n); // sort right side
 }
 
-void quickSort(std::vector<int>& S)
+void introspectiveSort(std::vector<int>& S)
 {
     int n = S.size();
-    if(n <= 1)
+    if(n <= 1){
         return; // finish when is less or equel than one element to sort
+    }else if(n > 1 && n <= maxElements){
 
-   quickSortStep(S, 0, n-1); // sort S with first and last elem
+    }else{
+       introspectiveSortStep(S, 0, n-1); // sort S with first and last elem
+    }
+
 }
+

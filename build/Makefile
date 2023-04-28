@@ -129,6 +129,30 @@ Sorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/build
 .PHONY : Sorting/fast
 
+src/heapSort.o: src/heapSort.cpp.o
+.PHONY : src/heapSort.o
+
+# target to build an object file
+src/heapSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/heapSort.cpp.o
+.PHONY : src/heapSort.cpp.o
+
+src/heapSort.i: src/heapSort.cpp.i
+.PHONY : src/heapSort.i
+
+# target to preprocess a source file
+src/heapSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/heapSort.cpp.i
+.PHONY : src/heapSort.cpp.i
+
+src/heapSort.s: src/heapSort.cpp.s
+.PHONY : src/heapSort.s
+
+# target to generate assembly for a file
+src/heapSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/heapSort.cpp.s
+.PHONY : src/heapSort.cpp.s
+
 src/introspectiveSort.o: src/introspectiveSort.cpp.o
 .PHONY : src/introspectiveSort.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sorting"
+	@echo "... src/heapSort.o"
+	@echo "... src/heapSort.i"
+	@echo "... src/heapSort.s"
 	@echo "... src/introspectiveSort.o"
 	@echo "... src/introspectiveSort.i"
 	@echo "... src/introspectiveSort.s"

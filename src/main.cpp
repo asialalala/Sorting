@@ -2,6 +2,8 @@
 #include <vector>
 #include "mergeSort.hh"
 #include "quickSort.hh"
+#include "introspctiveSort.hh"
+#include "heapSort.hh"
 
 int main()
 {
@@ -23,7 +25,7 @@ int main()
    
 
 
-    quickSort(data);
+    introspectiveSort(data);
 
     for( size_t i = 0; i < data.size(); i++ )
          printf( "%d, ", data[ i ] );

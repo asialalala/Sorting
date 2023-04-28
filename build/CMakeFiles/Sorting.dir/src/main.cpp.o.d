@@ -206,4 +206,4 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/quickSort.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/introspctiveSort.hh \
- /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh
+ /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
