@@ -23,5 +23,15 @@
   "directory": "/Users/asialalala/Programy/C++/Sorting/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/heapSort.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/heapSort.cpp",
   "file": "/Users/asialalala/Programy/C++/Sorting/src/heapSort.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/Elem.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/Elem.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/Elem.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/Read.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/Read.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/Read.cpp"
 }
 ]

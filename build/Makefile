@@ -129,6 +129,54 @@ Sorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/build
 .PHONY : Sorting/fast
 
+src/Elem.o: src/Elem.cpp.o
+.PHONY : src/Elem.o
+
+# target to build an object file
+src/Elem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Elem.cpp.o
+.PHONY : src/Elem.cpp.o
+
+src/Elem.i: src/Elem.cpp.i
+.PHONY : src/Elem.i
+
+# target to preprocess a source file
+src/Elem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Elem.cpp.i
+.PHONY : src/Elem.cpp.i
+
+src/Elem.s: src/Elem.cpp.s
+.PHONY : src/Elem.s
+
+# target to generate assembly for a file
+src/Elem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Elem.cpp.s
+.PHONY : src/Elem.cpp.s
+
+src/Read.o: src/Read.cpp.o
+.PHONY : src/Read.o
+
+# target to build an object file
+src/Read.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Read.cpp.o
+.PHONY : src/Read.cpp.o
+
+src/Read.i: src/Read.cpp.i
+.PHONY : src/Read.i
+
+# target to preprocess a source file
+src/Read.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Read.cpp.i
+.PHONY : src/Read.cpp.i
+
+src/Read.s: src/Read.cpp.s
+.PHONY : src/Read.s
+
+# target to generate assembly for a file
+src/Read.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Read.cpp.s
+.PHONY : src/Read.cpp.s
+
 src/heapSort.o: src/heapSort.cpp.o
 .PHONY : src/heapSort.o
 
@@ -258,6 +306,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Sorting"
+	@echo "... src/Elem.o"
+	@echo "... src/Elem.i"
+	@echo "... src/Elem.s"
+	@echo "... src/Read.o"
+	@echo "... src/Read.i"
+	@echo "... src/Read.s"
 	@echo "... src/heapSort.o"
 	@echo "... src/heapSort.i"
 	@echo "... src/heapSort.s"

@@ -4,10 +4,12 @@
 #include "quickSort.hh"
 #include "introspctiveSort.hh"
 #include "heapSort.hh"
+#include "Elem.hh"
+#include "Read.hh"
 
 int main()
 {
-    std::cout << "Hello";
+   /* std::cout << "Hello";
 
     std::vector < int > data;
     data.push_back( 5 );
@@ -31,7 +33,16 @@ int main()
          printf( "%d, ", data[ i ] );
     
     printf( "\n\nKoniec\n" );
+    */
 
+
+    std::vector <Elem> movies;
+    read(3,movies);
+
+    for(int i = 0; i < movies.size(); i++)
+    {
+        std::cout << movies[i].getTitle() << std::endl;
+    }
     return 0;
 
 }

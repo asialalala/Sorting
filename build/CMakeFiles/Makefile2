@@ -81,12 +81,12 @@ clean: CMakeFiles/Sorting.dir/clean
 CMakeFiles/Sorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asialalala/Programy/C++/Sorting/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Sorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asialalala/Programy/C++/Sorting/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Sorting"
 .PHONY : CMakeFiles/Sorting.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sorting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Sorting/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Sorting/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Sorting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asialalala/Programy/C++/Sorting/build/CMakeFiles 0
 .PHONY : CMakeFiles/Sorting.dir/rule
