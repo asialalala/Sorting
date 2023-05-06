@@ -622,6 +622,7 @@ CMakeFiles/Sorting.dir/src/heapSort.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
 
 CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o
  /Users/asialalala/Programy/C++/Sorting/src/introspectiveSort.cpp
@@ -665,7 +666,7 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/hash_bytes.h
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/range_access.h
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc
- /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh
+ /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ostream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ios
@@ -830,7 +831,7 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
- /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
 
 CMakeFiles/Sorting.dir/src/main.cpp.o
  /Users/asialalala/Programy/C++/Sorting/src/main.cpp
@@ -1038,10 +1039,10 @@ CMakeFiles/Sorting.dir/src/main.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_bvector.h
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc
  /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
  /Users/asialalala/Programy/C++/Sorting/inc/quickSort.hh
  /Users/asialalala/Programy/C++/Sorting/inc/introspctiveSort.hh
  /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
- /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
  /Users/asialalala/Programy/C++/Sorting/inc/Read.hh
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/fstream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h
@@ -1255,6 +1256,7 @@ CMakeFiles/Sorting.dir/src/mergeSort.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
 
 CMakeFiles/Sorting.dir/src/quickSort.cpp.o
  /Users/asialalala/Programy/C++/Sorting/src/quickSort.cpp
@@ -1462,4 +1464,5 @@ CMakeFiles/Sorting.dir/src/quickSort.cpp.o
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh
 

@@ -1,15 +1,18 @@
 #include <heapSort.hh>
 
-void heapify(std::vector<int>& S, int n, int i)
+/*!
+    Create heap from the vector
+*/
+void heapify(std::vector<Elem>& S, int n, int i)
 {
     int root = i;
     int l = 2 * i + 1;
     int r = 2 * i + 2;
 
-    if (l < n && S[l] > S[root])// If left child is larger than root
+    if (l < n && S[l].getGrade() > S[root].getGrade())// If left child is larger than root
         root = l;
  
-    if (r < n && S[r] > S[root]) // If right child is larger than root
+    if (r < n && S[r].getGrade() > S[root].getGrade()) // If right child is larger than root
         root = r;
  
     
@@ -21,8 +24,12 @@ void heapify(std::vector<int>& S, int n, int i)
 }
 
 
-
-void heapSort(std::vector<int>& S)
+/*!
+    Calls heapyfy function as a root is the bigest element, and than the bigest 
+    element is positioned in the ened of vector and again change the rest of fector into
+    a heap
+*/
+void heapSort(std::vector<Elem>& S)
 {
     int n = S.size();
    

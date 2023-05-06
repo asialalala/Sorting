@@ -203,4 +203,5 @@ CMakeFiles/Sorting.dir/src/mergeSort.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/basic_ios.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh

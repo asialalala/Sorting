@@ -1,6 +1,7 @@
 #pragma once 
 #include <vector>
 #include <iostream>
+#include "Elem.hh"
 
-void quickSortStep(std::vector<int>& S, int z, int n);
-void quickSort(std::vector<int>& S);
+void quickSortStep(std::vector<Elem>& S, int z, int n);
+void quickSort(std::vector<Elem>& S);

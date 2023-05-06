@@ -1,6 +1,10 @@
 #include "quickSort.hh"
 
-void quickSortStep(std::vector<int>& S, int z, int n)
+/*!
+    Chooses pivot at random and devide the vector on less then pivot's grade part
+    and more than pivot's grade part. Than it sort both of this parts by quickSort way
+*/
+void quickSortStep(std::vector<Elem>& S, int z, int n)
 {
     if (z >= n) //when it is sorted
         return;
@@ -11,9 +15,9 @@ void quickSortStep(std::vector<int>& S, int z, int n)
     int r = n-1;
     while (l<=r)
     {
-        while (l <= r && S[n] >= S[l])
+        while (l <= r && S[n].getGrade() >= S[l].getGrade())
             l++; // find elemnet in left side which doesn't suit
-        while (l <= r && S[n] <= S[r]) 
+        while (l <= r && S[n].getGrade() <= S[r].getGrade()) 
             r--; // find elemnet in right side which doesn't suit
         if(l<r)
             std::swap(S[l],S[r]); 
@@ -24,7 +28,10 @@ void quickSortStep(std::vector<int>& S, int z, int n)
 
 }
 
-void quickSort(std::vector<int>& S)
+/*!
+    Checks if in the vector is less the one element and calls quickSortStepp when is not
+*/
+void quickSort(std::vector<Elem>& S)
 {
     int n = S.size();
     if(n <= 1)

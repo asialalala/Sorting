@@ -40,7 +40,7 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/hash_bytes.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/range_access.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc \
- /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh \
+ /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/iostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ostream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ios \
@@ -205,4 +205,4 @@ CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ostream.tcc \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/istream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/istream.tcc \
- /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh

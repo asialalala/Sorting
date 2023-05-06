@@ -1,6 +1,6 @@
 #include "introspctiveSort.hh"
 
-void introspectiveSortStep(std::vector<int>& S, int z, int n)
+void introspectiveSortStep(std::vector<Elem>& S, int z, int n)
 {
         if (z >= n) //when it is sorted
         return;
@@ -16,9 +16,9 @@ void introspectiveSortStep(std::vector<int>& S, int z, int n)
     int r = n-1;
     while (l<=r)
     {
-        while (l <= r && S[n] >= S[l])
+        while (l <= r && S[n].getGrade() >= S[l].getGrade())
             l++; // find elemnet in left side which doesn't suit
-        while (l <= r && S[n] <= S[r]) 
+        while (l <= r && S[n].getGrade() <= S[r].getGrade()) 
             r--; // find elemnet in right side which doesn't suit
         if(l<r)
             std::swap(S[l],S[r]); 
@@ -28,7 +28,7 @@ void introspectiveSortStep(std::vector<int>& S, int z, int n)
     introspectiveSortStep(S, l+1, n); // sort right side
 }
 
-void introspectiveSort(std::vector<int>& S)
+void introspectiveSort(std::vector<Elem>& S)
 {
     int n = S.size();
     if(n <= 1){

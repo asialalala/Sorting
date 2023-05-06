@@ -204,10 +204,10 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/stl_bvector.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/vector.tcc \
  /Users/asialalala/Programy/C++/Sorting/inc/mergeSort.hh \
+ /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/quickSort.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/introspctiveSort.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/heapSort.hh \
- /Users/asialalala/Programy/C++/Sorting/inc/Elem.hh \
  /Users/asialalala/Programy/C++/Sorting/inc/Read.hh \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/fstream \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \

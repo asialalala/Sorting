@@ -16,7 +16,7 @@ void Elem::setPosition(int p)
     position = p;
 }
 
-void Elem::setGrade(float g)
+void Elem::setGrade(int g)
 {
     grade = g;
 }
@@ -31,12 +31,12 @@ int Elem::getPosition() const
     return position;
 }
 
-float Elem::getGrade() const
+int Elem::getGrade() const
 {
     return grade;
 }
 
 std::string Elem::getTitle() const
 {
-     return title;
+    return title;
 }

@@ -6,7 +6,7 @@ void read(int n, std::vector < Elem > & v)
 {
     std::string title;
     std::string gradeS;
-    float grade;
+    int grade;
     std::string positionS;
     int position;
     std::string line;
@@ -24,7 +24,7 @@ void read(int n, std::vector < Elem > & v)
        // std::cout << positionS;
        // std::cout << title; 
        // std::cout << gradeS;
-        grade = std::stof(gradeS);
+        grade = std::stoi(gradeS);
         position = std::stoi(positionS);
         Elem * tem = new Elem;
 

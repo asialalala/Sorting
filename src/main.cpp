@@ -27,7 +27,6 @@ int main()
    
 
 
-    introspectiveSort(data);
 
     for( size_t i = 0; i < data.size(); i++ )
          printf( "%d, ", data[ i ] );
@@ -37,12 +36,23 @@ int main()
 
 
     std::vector <Elem> movies;
-    read(3,movies);
+    read(10,movies);
 
     for(int i = 0; i < movies.size(); i++)
     {
-        std::cout << movies[i].getTitle() << std::endl;
+        std::cout << movies[i].getPosition() << ". " << movies[i].getTitle() << "OCENA: " << movies[i].getGrade() << std::endl;
     }
+
+    introspectiveSort(movies);
+
+    std::cout << "Posortowane\n";
+
+    for(int i = 0; i < movies.size(); i++)
+    {
+        movies[i].setPosition(i+1);
+        std::cout << movies[i].getPosition() << ". " << movies[i].getTitle() << "OCENA: " << movies[i].getGrade() << std::endl;
+    }
+
     return 0;
 
 }

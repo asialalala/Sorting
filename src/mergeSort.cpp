@@ -4,12 +4,12 @@
 /*!
     Merge sort of ints
 */
-std::vector <int> mergeSort(std::vector<int>& S) {
+std::vector <Elem> mergeSort(std::vector<Elem>& S) {
 int n = S.size();
-std::vector <int> v1(S); // copy elemenets from S input
-std::vector <int> * in = &v1;
-std::vector <int> v2(n); // create empty place for S output
-std::vector <int> * out = &v2;
+std::vector <Elem> v1(S); // copy elemenets from S input
+std::vector <Elem> * in = &v1;
+std::vector <Elem> v2(n); // create empty place for S output
+std::vector <Elem> * out = &v2;
 for (int m = 1; m < n; m *= 2) 
 {
     for (int b = 0; b < n; b += 2*m) 
@@ -27,7 +27,7 @@ return S;
 /*!
     Merge, function needed for merge sort
 */
-void merge(std::vector<int>& in, std::vector<int>& out, int b, int m) {
+void merge(std::vector<Elem>& in, std::vector<Elem>& out, int b, int m) {
 int i = b;
 int j = b + m;
 int n = in.size();
@@ -36,7 +36,7 @@ int e2 = std::min(b + 2*m, n); // check if the last
 int k = b;
 while ((i < e1) && (j < e2)) // while in S are elements
 {
-    if(in[j] >= in[i]) // if less
+    if(in[j].getGrade() >= in[i].getGrade()) // if less
         out[k++] = in[i++];
     else
         out[k++] = in[j++];

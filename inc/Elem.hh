@@ -4,17 +4,17 @@ class Elem
 {
 private:
     int position;
-    float grade;
+    int grade;
     std::string title;
 public:
     Elem();
     ~Elem();
     void setPosition(int p);
-    void setGrade(float g);
+    void setGrade(int g);
     void setTitle(std::string t);
 
     int getPosition() const;
-    float getGrade() const;
+    int getGrade() const;
     std::string getTitle() const;
 };
 

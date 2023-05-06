@@ -5,3 +5,4 @@
 #include "Elem.hh"
 
 void read(int n, std::vector < Elem > & v);
+void filter();
