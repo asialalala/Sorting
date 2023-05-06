@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sorting.dir/src/Elem.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/Read.cpp.o"
   "CMakeFiles/Sorting.dir/src/Read.cpp.o.d"
+  "CMakeFiles/Sorting.dir/src/filter.cpp.o"
+  "CMakeFiles/Sorting.dir/src/filter.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/heapSort.cpp.o"
   "CMakeFiles/Sorting.dir/src/heapSort.cpp.o.d"
   "CMakeFiles/Sorting.dir/src/introspectiveSort.cpp.o"

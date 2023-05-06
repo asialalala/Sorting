@@ -9,21 +9,23 @@ void read(int n, std::vector < Elem > & v)
     int grade;
     std::string positionS;
     int position;
-    std::string line;
+    std::string line; // temporary, ude to unneccessary data
 
-    std::fstream file;
-    file.open("../file/ranking.csv");
+    std::ifstream file;
+    file.open("../file/rankingFiltered.csv");
 
-    getline(file, line); // get the line with names of columns
+    //getline(file, line); // get the line with names of columns
    // std::cout << line;
     for(int i = 0; i < n; i++)
     {
         getline(file, positionS, ',');
-        getline(file, title, ',');
+        getline(file,line, '"'); // skip ,
+        getline(file, title, '"');
+        getline(file,line,','); // skip ""
         getline(file, gradeS, '\n');
-       // std::cout << positionS;
-       // std::cout << title; 
-       // std::cout << gradeS;
+        //std::cout << positionS;
+        //std::cout << title; 
+        //std::cout << gradeS;
         grade = std::stoi(gradeS);
         position = std::stoi(positionS);
         Elem * tem = new Elem;

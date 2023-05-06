@@ -35,9 +35,9 @@ int main()
     */
 
 
-    std::vector <Elem> movies;
-    read(10,movies);
-
+    //std::vector <Elem> movies;
+    //read(10,movies);
+/**
     for(int i = 0; i < movies.size(); i++)
     {
         std::cout << movies[i].getPosition() << ". " << movies[i].getTitle() << "OCENA: " << movies[i].getGrade() << std::endl;
@@ -51,7 +51,17 @@ int main()
     {
         movies[i].setPosition(i+1);
         std::cout << movies[i].getPosition() << ". " << movies[i].getTitle() << "OCENA: " << movies[i].getGrade() << std::endl;
+    }*/
+
+    filter();
+    std::vector <Elem> movies;
+    read(10,movies);
+    
+     for(int i = 0; i < movies.size(); i++)
+    {
+        std::cout << movies[i].getPosition() << ". " << movies[i].getTitle() << "OCENA: " << movies[i].getGrade() << std::endl;
     }
+
 
     return 0;
 

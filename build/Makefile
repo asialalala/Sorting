@@ -177,6 +177,30 @@ src/Read.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/Read.cpp.s
 .PHONY : src/Read.cpp.s
 
+src/filter.o: src/filter.cpp.o
+.PHONY : src/filter.o
+
+# target to build an object file
+src/filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/filter.cpp.o
+.PHONY : src/filter.cpp.o
+
+src/filter.i: src/filter.cpp.i
+.PHONY : src/filter.i
+
+# target to preprocess a source file
+src/filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/filter.cpp.i
+.PHONY : src/filter.cpp.i
+
+src/filter.s: src/filter.cpp.s
+.PHONY : src/filter.s
+
+# target to generate assembly for a file
+src/filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting.dir/build.make CMakeFiles/Sorting.dir/src/filter.cpp.s
+.PHONY : src/filter.cpp.s
+
 src/heapSort.o: src/heapSort.cpp.o
 .PHONY : src/heapSort.o
 
@@ -312,6 +336,9 @@ help:
 	@echo "... src/Read.o"
 	@echo "... src/Read.i"
 	@echo "... src/Read.s"
+	@echo "... src/filter.o"
+	@echo "... src/filter.i"
+	@echo "... src/filter.s"
 	@echo "... src/heapSort.o"
 	@echo "... src/heapSort.i"
 	@echo "... src/heapSort.s"

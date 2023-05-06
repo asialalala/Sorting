@@ -33,5 +33,10 @@
   "directory": "/Users/asialalala/Programy/C++/Sorting/build",
   "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/Read.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/Read.cpp",
   "file": "/Users/asialalala/Programy/C++/Sorting/src/Read.cpp"
+},
+{
+  "directory": "/Users/asialalala/Programy/C++/Sorting/build",
+  "command": "/usr/local/bin/g++-11  -I/Users/asialalala/Programy/C++/Sorting/inc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Sorting.dir/src/filter.cpp.o -c /Users/asialalala/Programy/C++/Sorting/src/filter.cpp",
+  "file": "/Users/asialalala/Programy/C++/Sorting/src/filter.cpp"
 }
 ]
