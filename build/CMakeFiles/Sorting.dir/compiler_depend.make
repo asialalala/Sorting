@@ -1250,7 +1250,12 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
   /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
-  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime \
+  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h
 
 CMakeFiles/Sorting.dir/src/mergeSort.cpp.o: ../src/mergeSort.cpp \
   ../inc/mergeSort.hh \
@@ -1667,6 +1672,8 @@ CMakeFiles/Sorting.dir/src/quickSort.cpp.o: ../src/quickSort.cpp \
   ../inc/Elem.hh
 
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio:
+
 ../inc/mergeSort.hh:
 
 ../inc/introspctiveSort.hh:
@@ -1977,9 +1984,13 @@ CMakeFiles/Sorting.dir/src/quickSort.cpp.o: ../src/quickSort.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h:
+
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/charconv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
@@ -1994,6 +2005,8 @@ CMakeFiles/Sorting.dir/src/quickSort.cpp.o: ../src/quickSort.cpp \
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/gthr-default.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
 
@@ -2056,6 +2069,8 @@ CMakeFiles/Sorting.dir/src/quickSort.cpp.o: ../src/quickSort.cpp \
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/ios_base.h:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/cwchar:
+
+/usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime:
 
 /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/char_traits.h:
 

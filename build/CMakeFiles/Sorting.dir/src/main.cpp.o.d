@@ -213,4 +213,9 @@ CMakeFiles/Sorting.dir/src/main.cpp.o: \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/codecvt.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/basic_file.h \
  /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/x86_64-apple-darwin20/bits/c++io.h \
- /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/fstream.tcc \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/chrono \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ratio \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/limits \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/ctime \
+ /usr/local/Cellar/gcc/11.2.0_3/include/c++/11/bits/parse_numbers.h
