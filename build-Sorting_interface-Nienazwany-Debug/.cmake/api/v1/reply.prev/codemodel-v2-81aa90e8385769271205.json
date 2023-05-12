@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Sorting_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Sorting_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sorting_interface-Debug-02547d7efa294c06b3f0.json",
+					"name" : "Sorting_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sorting_interface_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sorting_interface_autogen-Debug-9a0f638e5234ab62def8.json",
+					"name" : "Sorting_interface_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug",
+		"source" : "/Users/asialalala/Programy/C++/Sorting/Sorting_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
