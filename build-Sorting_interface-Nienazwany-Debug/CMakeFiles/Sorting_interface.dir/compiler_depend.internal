@@ -1059,6 +1059,13 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o
  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QStatusBar
  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qstatusbar.h
  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qtextstream.h
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer
+ /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h
 
 CMakeFiles/Sorting_interface.dir/src/Elem.cpp.o
  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/Elem.cpp

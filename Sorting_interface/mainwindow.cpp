@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include <QDebug>
+#include <QElapsedTimer>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -19,12 +21,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    //start = std::chrono::high_resolution_clock::now(); // count time
+    QElapsedTimer timer;
+    timer.start();
     filter();
-    //end = std::chrono::high_resolution_clock::now(); // count time
+    qDebug() << "Czas wykonania filtracji: "  << timer.elapsed() << "ms. \n";
     filtered = true;
-   //duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
-   //std::cout << "Czas wykonania filtracji: " << duration.count() * 1e-9 << std::endl;
     QMessageBox msgBox;
     msgBox.setText("These movies has been fitered. The result can be check in file rankingFiltered.csv.");
     msgBox.exec();
@@ -37,9 +38,12 @@ void MainWindow::on_pushButton_2_clicked()
     QMessageBox msgBox;
     if(filtered)
             {
-                read(1000, movies);
+                QElapsedTimer timer;
+                timer.start();
+                read(10000, movies);
+                qDebug() << "Czas wczytania 10 000 filmów: "  << timer.elapsed() << "ms. \n";
                 enter = true;
-                msgBox.setText("1 000 movies have been uploaded.");
+                msgBox.setText("10 000 movies have been uploaded.");
                 msgBox.exec();
             }
             else{
@@ -55,9 +59,12 @@ void MainWindow::on_pushButton_100000_clicked()
     QMessageBox msgBox;
     if(filtered)
             {
-                read(10000, movies);
+                QElapsedTimer timer;
+                timer.start();
+                read(100000, movies);
+                qDebug() << "Czas wczytania 100 000 filmów: "  << timer.elapsed() << "ms. \n";
                 enter = true;
-                msgBox.setText("10 000 movies have been uploaded.");
+                msgBox.setText("100 000 movies have been uploaded.");
                 msgBox.exec();
             }
             else{
@@ -72,9 +79,12 @@ void MainWindow::on_pushButton_500000_clicked()
      QMessageBox msgBox;
     if(filtered)
             {
-                read(100000, movies);
+                QElapsedTimer timer;
+                timer.start();
+                read(500000, movies);
+                qDebug() << "Czas wczytania 500 000 filmów: "  << timer.elapsed() << "ms. \n";
                 enter = true;
-                msgBox.setText("100 000 have been uploaded.");
+                msgBox.setText("500 000 have been uploaded.");
                 msgBox.exec();
             }
             else{
@@ -89,9 +99,12 @@ void MainWindow::on_pushButton_1000000_clicked()
     QMessageBox msgBox;
    if(filtered)
            {
-               readAll(movies);
+               QElapsedTimer timer;
+               timer.start();
+               read(1000000, movies);
+               qDebug() << "Czas wczytania 1 000 000 filmów: "  << timer.elapsed() << "ms. \n";
                enter = true;
-               msgBox.setText("All movies have been uploaded.");
+               msgBox.setText("1 000 000 have been uploaded.");
                msgBox.exec();
            }
            else{
@@ -106,11 +119,10 @@ void MainWindow::on_pushButton_3_clicked()
     QMessageBox msgBox;
     if(enter)
             {
-                //start = std::chrono::high_resolution_clock::now(); // count time
+                QElapsedTimer timer;
+                timer.start();
                 quickSort(movies);
-                //end = std::chrono::high_resolution_clock::now(); // count time
-                //duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
-                //std::cout << "Czas wykonania sortowania: " << duration.count() * 1e-9 << std::endl;
+                qDebug() << "Czas wykonania sortowania przez szybkie sortowanie:  "  << timer.elapsed() << "ms. \n";
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
             }else{
@@ -125,11 +137,10 @@ void MainWindow::on_pushButton_4_clicked()
     QMessageBox msgBox;
     if(enter)
             {
-                //start = std::chrono::high_resolution_clock::now(); // count time
+                QElapsedTimer timer;
+                timer.start();
                 introspectiveSort(movies);
-                //end = std::chrono::high_resolution_clock::now(); // count time
-                //duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
-                //std::cout << "Czas wykonania sortowania: " << duration.count() * 1e-9 << std::endl;
+                qDebug() << "Czas wykonania sortowania przez sortowanie introspektywne:  "  << timer.elapsed() << "ms. \n";
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
             }else{
@@ -144,11 +155,10 @@ void MainWindow::on_pushButton_5_clicked()
     QMessageBox msgBox;
     if(enter)
             {
-                //start = std::chrono::high_resolution_clock::now(); // count time
+                QElapsedTimer timer;
+                timer.start();
                 mergeSort(movies);
-                //end = std::chrono::high_resolution_clock::now(); // count time
-                //duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
-                //std::cout << "Czas wykonania sortowania: " << duration.count() * 1e-9 << std::endl;
+                qDebug() << "Czas wykonania sortowania przez scalanie:  "  << timer.elapsed() << "ms. \n";
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
             }else{

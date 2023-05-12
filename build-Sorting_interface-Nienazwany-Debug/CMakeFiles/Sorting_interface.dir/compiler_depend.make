@@ -1055,7 +1055,14 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: /Users/asialalala/Programy/C+
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QStatusBar \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qstatusbar.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QWidget
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qtextstream.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h
 
 CMakeFiles/Sorting_interface.dir/src/Elem.cpp.o: /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/Elem.cpp \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Elem.hh \
@@ -2674,6 +2681,12 @@ CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o: /Users/asialalala/Programy
 
 /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/Elem.cpp:
 
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer:
+
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h:
+
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h:
+
 /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QStatusBar:
 
 /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QPushButton:
@@ -2703,6 +2716,8 @@ Sorting_interface_autogen/include/ui_mainwindow.h:
 /Users/asialalala/Programy/C++/Sorting/Sorting_interface/filter.hh:
 
 /Users/asialalala/Programy/C++/Sorting/Sorting_interface/heapSort.hh:
+
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qtextstream.h:
 
 /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspctiveSort.hh:
 
@@ -3124,6 +3139,8 @@ Sorting_interface_autogen/include/ui_mainwindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/libkern/_OSByteOrder.h:
@@ -3139,6 +3156,8 @@ Sorting_interface_autogen/include/ui_mainwindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/endian.h:
+
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/endian.h:
 
@@ -3355,6 +3374,8 @@ Sorting_interface_autogen/include/ui_mainwindow.h:
 /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/Headers/qtgui-config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_addr_t.h:
 

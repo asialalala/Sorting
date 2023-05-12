@@ -83,10 +83,10 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Filter", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Upload 1 000 movies", nullptr));
-        pushButton_100000->setText(QCoreApplication::translate("MainWindow", "Upload 10 000 movies", nullptr));
-        pushButton_500000->setText(QCoreApplication::translate("MainWindow", "Upload 100 000 movies", nullptr));
-        pushButton_1000000->setText(QCoreApplication::translate("MainWindow", "Upload all movies", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Upload 10 000 movies", nullptr));
+        pushButton_100000->setText(QCoreApplication::translate("MainWindow", "Upload 100 000 movies", nullptr));
+        pushButton_500000->setText(QCoreApplication::translate("MainWindow", "Upload 500 000 movies", nullptr));
+        pushButton_1000000->setText(QCoreApplication::translate("MainWindow", "Upoload 1 000 000 movies", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Sort with quick sort", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Sort with introspective sort", nullptr));
         pushButton_5->setText(QCoreApplication::translate("MainWindow", "Sort with merge sort", nullptr));
