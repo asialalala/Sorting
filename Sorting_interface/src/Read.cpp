@@ -75,8 +75,6 @@ void readAll(std::vector < Elem > & v)
 
     std::ifstream file;
     file.open("../file/rankingFiltered.csv");
-    //getline(file, line); // get the line with names of columns
-   // std::cout << line;
     for( ; ; )
     {
         getline(file, positionS, ','); // read position
@@ -86,9 +84,6 @@ void readAll(std::vector < Elem > & v)
         getline(file,line);
         itE = line.end();
         itB = line.begin();
-    //std::cout << "poczatek " << *itB << std::endl;
-    //std::cout << line <<  std::endl;
-    //std::cout << "koniec " << *(--itE) << std::endl;
         // read grade
         while (*itE != '"') // find the end of title
                 itE--;
@@ -104,11 +99,6 @@ void readAll(std::vector < Elem > & v)
             gradeS.push_back(*itE);
             itE++;
         }
-
-        //getline(file, gradeS, '\n');
-        //std::cout << positionS;
-        //std::cout << title;
-        //std::cout << gradeS;
         grade = std::stoi(gradeS);
         position = std::stoi(positionS);
         Elem * tem = new Elem;
@@ -121,5 +111,4 @@ void readAll(std::vector < Elem > & v)
         title.clear();
     }
     file.close();
-
 }

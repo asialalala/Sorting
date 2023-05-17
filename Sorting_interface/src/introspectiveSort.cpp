@@ -10,7 +10,13 @@ void introspectiveSortStep(std::vector<Elem>& S, int z, int n)
         return;
      } // start merge sorting
 
-    int pivot = z + rand() % (n - z + 1); // choos pivot at random from range which is unsorted
+    // generation of random number
+    typedef std::chrono::high_resolution_clock myclock;
+    myclock::time_point beginning = myclock::now();
+    myclock::duration d = myclock::now() - beginning;
+    unsigned random = d.count();
+
+    int pivot = z + random % (n - z + 1); // choos pivot at random from range which is unsorted
     std::swap(S[pivot],S[n]);
     int l = z;
     int r = n-1;

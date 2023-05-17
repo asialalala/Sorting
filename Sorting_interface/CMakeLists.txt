@@ -26,6 +26,9 @@ set(PROJECT_SOURCES
         src/mergeSort.cpp
         src/quickSort.cpp
         src/Read.cpp
+        fileread.ui
+        #fileread.cpp
+        #fileread.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -338,11 +338,22 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMessageBox \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qdialog.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QFile \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qfile.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qtextstream.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qvariant.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h \
   /Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/Sorting_interface_autogen/include/./ui_mainwindow.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QVariant \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qvariant.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QApplication \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -350,7 +361,6 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qeventloop.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/Headers/qinputmethod.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlocale.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMenuBar \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmenubar.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmenu.h \
@@ -361,11 +371,4 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QStatusBar \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qstatusbar.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qtextstream.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QWidget

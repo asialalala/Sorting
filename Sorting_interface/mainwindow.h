@@ -13,6 +13,9 @@
 #include "filter.hh"
 #include <chrono>
 #include <QMessageBox>
+#include <QFile>
+#include <QDebug>
+#include <QElapsedTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

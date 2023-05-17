@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include <QDebug>
-#include <QElapsedTimer>
+
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -27,7 +26,7 @@ void MainWindow::on_pushButton_clicked()
     qDebug() << "Czas wykonania filtracji: "  << timer.elapsed() << "ms. \n";
     filtered = true;
     QMessageBox msgBox;
-    msgBox.setText("These movies has been fitered. The result can be check in file rankingFiltered.csv.");
+    msgBox.setText("These movies has been fitered. The result can be checked in file rankingFiltered.csv.");
     msgBox.exec();
 
 }
@@ -129,6 +128,10 @@ void MainWindow::on_pushButton_3_clicked()
                 msgBox.setText("Firstly upload movies from file.");
                 msgBox.exec();
             }
+            //for(int i=0; i < movies.size(); i++)
+            //{
+             //   qDebug() << movies[i].getGrade() << "\n";
+            //}
 }
 
 
@@ -159,6 +162,7 @@ void MainWindow::on_pushButton_5_clicked()
                 timer.start();
                 mergeSort(movies);
                 qDebug() << "Czas wykonania sortowania przez scalanie:  "  << timer.elapsed() << "ms. \n";
+                qDebug() << "Rozmiar"  << movies.size();
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
             }else{
@@ -166,4 +170,5 @@ void MainWindow::on_pushButton_5_clicked()
                 msgBox.exec();
             }
 }
+
 
