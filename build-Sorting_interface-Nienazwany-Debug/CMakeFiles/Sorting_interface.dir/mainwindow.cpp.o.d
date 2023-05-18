@@ -326,7 +326,8 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/mergeSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Elem.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/quickSort.hh \
-  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspctiveSort.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspectiveSort.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/heapSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Read.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
@@ -352,6 +353,8 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/ststistics.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/write.hh \
   /Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/Sorting_interface_autogen/include/./ui_mainwindow.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QVariant \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QApplication \
@@ -361,6 +364,9 @@ CMakeFiles/Sorting_interface.dir/mainwindow.cpp.o: \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qeventloop.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/Headers/qinputmethod.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMenuBar \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmenubar.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmenu.h \

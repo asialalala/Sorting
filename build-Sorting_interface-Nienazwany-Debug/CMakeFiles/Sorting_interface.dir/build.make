@@ -209,6 +209,34 @@ CMakeFiles/Sorting_interface.dir/src/Read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_interface.dir/src/Read.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/Read.cpp -o CMakeFiles/Sorting_interface.dir/src/Read.cpp.s
 
+CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o: CMakeFiles/Sorting_interface.dir/flags.make
+CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o: /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp
+CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o: CMakeFiles/Sorting_interface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o -MF CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o.d -o CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o -c /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp
+
+CMakeFiles/Sorting_interface.dir/src/statistics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting_interface.dir/src/statistics.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp > CMakeFiles/Sorting_interface.dir/src/statistics.cpp.i
+
+CMakeFiles/Sorting_interface.dir/src/statistics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_interface.dir/src/statistics.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp -o CMakeFiles/Sorting_interface.dir/src/statistics.cpp.s
+
+CMakeFiles/Sorting_interface.dir/src/write.cpp.o: CMakeFiles/Sorting_interface.dir/flags.make
+CMakeFiles/Sorting_interface.dir/src/write.cpp.o: /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp
+CMakeFiles/Sorting_interface.dir/src/write.cpp.o: CMakeFiles/Sorting_interface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sorting_interface.dir/src/write.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sorting_interface.dir/src/write.cpp.o -MF CMakeFiles/Sorting_interface.dir/src/write.cpp.o.d -o CMakeFiles/Sorting_interface.dir/src/write.cpp.o -c /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp
+
+CMakeFiles/Sorting_interface.dir/src/write.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorting_interface.dir/src/write.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp > CMakeFiles/Sorting_interface.dir/src/write.cpp.i
+
+CMakeFiles/Sorting_interface.dir/src/write.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorting_interface.dir/src/write.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp -o CMakeFiles/Sorting_interface.dir/src/write.cpp.s
+
 # Object files for target Sorting_interface
 Sorting_interface_OBJECTS = \
 "CMakeFiles/Sorting_interface.dir/Sorting_interface_autogen/mocs_compilation.cpp.o" \
@@ -220,7 +248,9 @@ Sorting_interface_OBJECTS = \
 "CMakeFiles/Sorting_interface.dir/src/introspectiveSort.cpp.o" \
 "CMakeFiles/Sorting_interface.dir/src/mergeSort.cpp.o" \
 "CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o" \
-"CMakeFiles/Sorting_interface.dir/src/Read.cpp.o"
+"CMakeFiles/Sorting_interface.dir/src/Read.cpp.o" \
+"CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o" \
+"CMakeFiles/Sorting_interface.dir/src/write.cpp.o"
 
 # External object files for target Sorting_interface
 Sorting_interface_EXTERNAL_OBJECTS =
@@ -235,12 +265,14 @@ Sorting_interface: CMakeFiles/Sorting_interface.dir/src/introspectiveSort.cpp.o
 Sorting_interface: CMakeFiles/Sorting_interface.dir/src/mergeSort.cpp.o
 Sorting_interface: CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o
 Sorting_interface: CMakeFiles/Sorting_interface.dir/src/Read.cpp.o
+Sorting_interface: CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o
+Sorting_interface: CMakeFiles/Sorting_interface.dir/src/write.cpp.o
 Sorting_interface: CMakeFiles/Sorting_interface.dir/build.make
 Sorting_interface: /Users/asialalala/Qt/5.15.0/clang_64/lib/QtWidgets.framework/QtWidgets
 Sorting_interface: /Users/asialalala/Qt/5.15.0/clang_64/lib/QtGui.framework/QtGui
 Sorting_interface: /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/QtCore
 Sorting_interface: CMakeFiles/Sorting_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Sorting_interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asialalala/Programy/C++/Sorting/build-Sorting_interface-Nienazwany-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Sorting_interface"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sorting_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

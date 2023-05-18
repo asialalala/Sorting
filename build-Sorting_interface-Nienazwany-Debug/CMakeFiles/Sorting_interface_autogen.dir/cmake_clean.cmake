@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sorting_interface_autogen"
-  "Sorting_interface_autogen/include/ui_fileread.h"
   "Sorting_interface_autogen/include/ui_mainwindow.h"
   "Sorting_interface_autogen/mocs_compilation.cpp"
 )

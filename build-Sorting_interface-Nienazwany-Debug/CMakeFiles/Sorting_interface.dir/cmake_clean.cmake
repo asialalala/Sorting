@@ -22,6 +22,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sorting_interface.dir/src/mergeSort.cpp.o.d"
   "CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o"
   "CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o.d"
+  "CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o"
+  "CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o.d"
+  "CMakeFiles/Sorting_interface.dir/src/write.cpp.o"
+  "CMakeFiles/Sorting_interface.dir/src/write.cpp.o.d"
   "Sorting_interface"
   "Sorting_interface.pdb"
 )

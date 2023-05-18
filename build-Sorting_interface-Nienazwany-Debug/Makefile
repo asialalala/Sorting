@@ -382,6 +382,54 @@ src/quickSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.s
 .PHONY : src/quickSort.cpp.s
 
+src/statistics.o: src/statistics.cpp.o
+.PHONY : src/statistics.o
+
+# target to build an object file
+src/statistics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o
+.PHONY : src/statistics.cpp.o
+
+src/statistics.i: src/statistics.cpp.i
+.PHONY : src/statistics.i
+
+# target to preprocess a source file
+src/statistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/statistics.cpp.i
+.PHONY : src/statistics.cpp.i
+
+src/statistics.s: src/statistics.cpp.s
+.PHONY : src/statistics.s
+
+# target to generate assembly for a file
+src/statistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/statistics.cpp.s
+.PHONY : src/statistics.cpp.s
+
+src/write.o: src/write.cpp.o
+.PHONY : src/write.o
+
+# target to build an object file
+src/write.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/write.cpp.o
+.PHONY : src/write.cpp.o
+
+src/write.i: src/write.cpp.i
+.PHONY : src/write.i
+
+# target to preprocess a source file
+src/write.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/write.cpp.i
+.PHONY : src/write.cpp.i
+
+src/write.s: src/write.cpp.s
+.PHONY : src/write.s
+
+# target to generate assembly for a file
+src/write.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sorting_interface.dir/build.make CMakeFiles/Sorting_interface.dir/src/write.cpp.s
+.PHONY : src/write.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -422,6 +470,12 @@ help:
 	@echo "... src/quickSort.o"
 	@echo "... src/quickSort.i"
 	@echo "... src/quickSort.s"
+	@echo "... src/statistics.o"
+	@echo "... src/statistics.i"
+	@echo "... src/statistics.s"
+	@echo "... src/write.o"
+	@echo "... src/write.i"
+	@echo "... src/write.s"
 .PHONY : help
 
 

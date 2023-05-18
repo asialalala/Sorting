@@ -74,11 +74,6 @@ void filter()
 
     }
 
-   
-
-   //std::string::iterator it=line.end(); it!=str.end(); ++it)
-   // std::cout << *it << std::endl;
-   // std::cout << '\n';
 
     fileR.close();
     fileW.close();

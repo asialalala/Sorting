@@ -26,7 +26,9 @@ set(PROJECT_SOURCES
         src/mergeSort.cpp
         src/quickSort.cpp
         src/Read.cpp
-        fileread.ui
+        #fileread.ui
+        src/statistics.cpp
+        src/write.cpp
         #fileread.cpp
         #fileread.h
 )

@@ -18,6 +18,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/introspectiveSort.cpp" "CMakeFiles/Sorting_interface.dir/src/introspectiveSort.cpp.o" "gcc" "CMakeFiles/Sorting_interface.dir/src/introspectiveSort.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/mergeSort.cpp" "CMakeFiles/Sorting_interface.dir/src/mergeSort.cpp.o" "gcc" "CMakeFiles/Sorting_interface.dir/src/mergeSort.cpp.o.d"
   "/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/quickSort.cpp" "CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o" "gcc" "CMakeFiles/Sorting_interface.dir/src/quickSort.cpp.o.d"
+  "/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp" "CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o" "gcc" "CMakeFiles/Sorting_interface.dir/src/statistics.cpp.o.d"
+  "/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp" "CMakeFiles/Sorting_interface.dir/src/write.cpp.o" "gcc" "CMakeFiles/Sorting_interface.dir/src/write.cpp.o.d"
   )
 
 # Targets to which this target links.

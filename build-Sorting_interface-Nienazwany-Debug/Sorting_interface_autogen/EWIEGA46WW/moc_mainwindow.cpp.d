@@ -72,6 +72,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
@@ -182,9 +183,11 @@
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Read.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/filter.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/heapSort.hh \
-  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspctiveSort.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspectiveSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/mergeSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/quickSort.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/ststistics.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/write.hh \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QDebug \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QElapsedTimer \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QFile \

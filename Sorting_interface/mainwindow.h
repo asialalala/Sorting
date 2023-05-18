@@ -6,7 +6,7 @@
 #include <vector>
 #include "mergeSort.hh"
 #include "quickSort.hh"
-#include "introspctiveSort.hh"
+#include "introspectiveSort.hh"
 #include "heapSort.hh"
 #include "Elem.hh"
 #include "Read.hh"
@@ -16,6 +16,8 @@
 #include <QFile>
 #include <QDebug>
 #include <QElapsedTimer>
+#include "ststistics.hh"
+#include "write.hh"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -48,13 +50,9 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    int choice;
     bool enter;
     bool filtered;
     int n;
-    //std::chrono::_V2::system_clock::time_point start;
-    //std::chrono::_V2::system_clock::time_point end;
-    //std::chrono::nanoseconds duration;
     std::vector <Elem>  movies;
 };
 #endif // MAINWINDOW_H

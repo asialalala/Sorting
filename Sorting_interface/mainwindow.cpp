@@ -26,7 +26,7 @@ void MainWindow::on_pushButton_clicked()
     qDebug() << "Czas wykonania filtracji: "  << timer.elapsed() << "ms. \n";
     filtered = true;
     QMessageBox msgBox;
-    msgBox.setText("These movies has been fitered. The result can be checked in file rankingFiltered.csv.");
+    msgBox.setText("These movies have been fitered. The result can be checked in a file rankingFiltered.csv.");
     msgBox.exec();
 
 }
@@ -83,7 +83,7 @@ void MainWindow::on_pushButton_500000_clicked()
                 read(500000, movies);
                 qDebug() << "Czas wczytania 500 000 filmów: "  << timer.elapsed() << "ms. \n";
                 enter = true;
-                msgBox.setText("500 000 have been uploaded.");
+                msgBox.setText("500 000 movies have been uploaded.");
                 msgBox.exec();
             }
             else{
@@ -103,7 +103,7 @@ void MainWindow::on_pushButton_1000000_clicked()
                read(1000000, movies);
                qDebug() << "Czas wczytania 1 000 000 filmów: "  << timer.elapsed() << "ms. \n";
                enter = true;
-               msgBox.setText("1 000 000 have been uploaded.");
+               msgBox.setText("1 000 000 movies have been uploaded.");
                msgBox.exec();
            }
            else{
@@ -120,18 +120,17 @@ void MainWindow::on_pushButton_3_clicked()
             {
                 QElapsedTimer timer;
                 timer.start();
-                quickSort(movies);
+                quickSort(movies, 0, movies.size()-1);
                 qDebug() << "Czas wykonania sortowania przez szybkie sortowanie:  "  << timer.elapsed() << "ms. \n";
+                ui->median->setText(tr("<b>Median<b> : %1").arg(median(movies)));
+                ui->mean->setText(tr("<b>Mean<b> : %1").arg(mean(movies)));
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
+                write(movies);
             }else{
                 msgBox.setText("Firstly upload movies from file.");
                 msgBox.exec();
             }
-            //for(int i=0; i < movies.size(); i++)
-            //{
-             //   qDebug() << movies[i].getGrade() << "\n";
-            //}
 }
 
 
@@ -142,14 +141,18 @@ void MainWindow::on_pushButton_4_clicked()
             {
                 QElapsedTimer timer;
                 timer.start();
-                introspectiveSort(movies);
+                introspectiveSort(movies,0,movies.size()-1);
                 qDebug() << "Czas wykonania sortowania przez sortowanie introspektywne:  "  << timer.elapsed() << "ms. \n";
+                ui->median->setText(tr("<b>Median<b> : %1").arg(median(movies)));
+                ui->mean->setText(tr("<b>Mean<b> : %1").arg(mean(movies)));
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
+                write(movies);
             }else{
                 msgBox.setText("Firstly upload movies from file.");
                 msgBox.exec();
             }
+
 }
 
 
@@ -162,9 +165,11 @@ void MainWindow::on_pushButton_5_clicked()
                 timer.start();
                 mergeSort(movies);
                 qDebug() << "Czas wykonania sortowania przez scalanie:  "  << timer.elapsed() << "ms. \n";
-                qDebug() << "Rozmiar"  << movies.size();
+                ui->median->setText(tr("<b>Median<b> : %1").arg(median(movies)));
+                ui->mean->setText(tr("<b>Mean<b> : %1").arg(mean(movies)));
                 msgBox.setText("Movies have been sorted. The result can be checked in Sorted.txt file");
                 msgBox.exec();
+                write(movies);
             }else{
                 msgBox.setText("Firstly upload movies from file.");
                 msgBox.exec();

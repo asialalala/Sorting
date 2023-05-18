@@ -76,6 +76,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/introspectiveSort.h",
+			"MU",
+			"UVLADIE3JM/moc_introspectiveSort.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -172,6 +178,16 @@
 		],
 		[
 			"/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/quickSort.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/statistics.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/asialalala/Programy/C++/Sorting/Sorting_interface/src/write.cpp",
 			"MU",
 			null
 		]

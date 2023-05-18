@@ -29,18 +29,18 @@ void heapify(std::vector<Elem>& S, int n, int i)
     element is positioned in the ened of vector and again change the rest of fector into
     a heap
 */
-void heapSort(std::vector<Elem>& S)
+void heapSort(std::vector<Elem>& S, int left, int right)
 {
-    int n = S.size();
+    //int n = S.size();
    
-    for (int i = n/ 2 - 1; i >= 0; i--)  // Build heap 
-        heapify(S, n, i);
+    for (int i = right/ 2 ; i >= left; i--)  // Build heap
+        heapify(S, right, i);
  
-    for (int i = n - 1; i > 0; i--) { // extract elements
+    for (int i = right ; i > left; i--) { // extract elements
  
-        std::swap(S[0], S[i]); // swap current root (max element) with the end
+        std::swap(S[left], S[i]); // swap current root (max element) with the end
  
-        heapify(S, i, 0); // call max heapify on the reduced heap
+        heapify(S, i, left); // call max heapify on the reduced heap
     }
 }
 

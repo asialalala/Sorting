@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -31,6 +32,8 @@ public:
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
     QPushButton *pushButton_5;
+    QLabel *median;
+    QLabel *mean;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -43,7 +46,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(320, 50, 131, 21));
+        pushButton->setGeometry(QRect(330, 50, 131, 21));
         pushButton_2 = new QPushButton(centralwidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setGeometry(QRect(20, 100, 161, 24));
@@ -58,13 +61,19 @@ public:
         pushButton_1000000->setGeometry(QRect(580, 100, 191, 24));
         pushButton_3 = new QPushButton(centralwidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(280, 160, 201, 24));
+        pushButton_3->setGeometry(QRect(50, 190, 201, 24));
         pushButton_4 = new QPushButton(centralwidget);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(280, 220, 201, 24));
+        pushButton_4->setGeometry(QRect(290, 190, 201, 24));
         pushButton_5 = new QPushButton(centralwidget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(280, 290, 201, 24));
+        pushButton_5->setGeometry(QRect(540, 190, 201, 24));
+        median = new QLabel(centralwidget);
+        median->setObjectName(QString::fromUtf8("median"));
+        median->setGeometry(QRect(100, 300, 181, 61));
+        mean = new QLabel(centralwidget);
+        mean->setObjectName(QString::fromUtf8("mean"));
+        mean->setGeometry(QRect(530, 300, 171, 71));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -90,6 +99,8 @@ public:
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Sort with quick sort", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Sort with introspective sort", nullptr));
         pushButton_5->setText(QCoreApplication::translate("MainWindow", "Sort with merge sort", nullptr));
+        median->setText(QCoreApplication::translate("MainWindow", "Median", nullptr));
+        mean->setText(QCoreApplication::translate("MainWindow", "Mean", nullptr));
     } // retranslateUi
 
 };

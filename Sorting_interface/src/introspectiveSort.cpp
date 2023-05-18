@@ -1,49 +1,46 @@
-#include "introspctiveSort.hh"
+#include "introspectiveSort.hh"
 
-void introspectiveSortStep(std::vector<Elem>& S, int z, int n)
-{
-        if (z >= n) //when it is sorted
-        return;
-        
-    if (maxElements >= n) {
-        heapSort(S);
-        return;
-     } // start merge sorting
+int devideIntroSort(std::vector<Elem>& S, int left, int right) {
+    //generation of random number
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<int> dis(left, right);
+    int randomIndex = dis(gen);
 
-    // generation of random number
-    typedef std::chrono::high_resolution_clock myclock;
-    myclock::time_point beginning = myclock::now();
-    myclock::duration d = myclock::now() - beginning;
-    unsigned random = d.count();
+    //choose pivot at random
+    int pivotValue = S[randomIndex].getGrade();
+    std::swap(S[randomIndex], S[right]);
 
-    int pivot = z + random % (n - z + 1); // choos pivot at random from range which is unsorted
-    std::swap(S[pivot],S[n]);
-    int l = z;
-    int r = n-1;
-    while (l<=r)
-    {
-        while (l <= r && S[n].getGrade() >= S[l].getGrade())
-            l++; // find elemnet in left side which doesn't suit
-        while (l <= r && S[n].getGrade() <= S[r].getGrade()) 
-            r--; // find elemnet in right side which doesn't suit
-        if(l<r)
-            std::swap(S[l],S[r]); 
+    int i = left;
+
+    for (int j = left; j < right; j++) {
+        if (S[j].getGrade() < pivotValue) {
+            std::swap(S[i], S[j]);
+            i++;
+        }
     }
-    std::swap(S[l],S[n]);
-    introspectiveSortStep(S, z, l - 1); // sort left side
-    introspectiveSortStep(S, l+1, n); // sort right side
+    std::swap(S[i + 1], S[right]); // put pivot on its place
+    return i + 1; // return pivot index
 }
 
-void introspectiveSort(std::vector<Elem>& S)
-{
-    int n = S.size();
-    if(n <= 1){
-        return; // finish when is less or equel than one element to sort
-    }else if(n > 1 && n <= maxElements){
+void introspectiveSort(std::vector<Elem>& S, int left, int right) {
+    int n = right - left;
+    if (maxElements > n) {
+        heapSort(S, left, right);
+        return;
+     } // start heap sort
 
-    }else{
-       introspectiveSortStep(S, 0, n-1); // sort S with first and last elem
+    else if (left < right) {
+        int pi = devideIntroSort(S, left, right);
+
+        introspectiveSort(S, left, pi - 1); // sort left part
+        introspectiveSort(S, pi + 1, right); // sort right part
     }
-
 }
+
+
+
+
+
+
 

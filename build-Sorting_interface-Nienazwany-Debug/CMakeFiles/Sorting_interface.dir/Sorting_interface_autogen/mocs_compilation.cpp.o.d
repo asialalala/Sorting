@@ -327,7 +327,8 @@ CMakeFiles/Sorting_interface.dir/Sorting_interface_autogen/mocs_compilation.cpp.
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/mergeSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Elem.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/quickSort.hh \
-  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspctiveSort.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/introspectiveSort.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/heapSort.hh \
   /Users/asialalala/Programy/C++/Sorting/Sorting_interface/Read.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
@@ -352,4 +353,6 @@ CMakeFiles/Sorting_interface.dir/Sorting_interface_autogen/mocs_compilation.cpp.
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qset.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QElapsedTimer \
-  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h
+  /Users/asialalala/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qelapsedtimer.h \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/ststistics.hh \
+  /Users/asialalala/Programy/C++/Sorting/Sorting_interface/write.hh

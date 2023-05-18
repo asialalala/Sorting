@@ -2,51 +2,40 @@
 #include <random>
 
 /*!
-    Chooses pivot at random and devide the vector on less then pivot's grade part
-    and more than pivot's grade part. Than it sort both of this parts by quickSort way
-*/
-void quickSortStep(std::vector<Elem>& S, int z, int n)
-{
-    if (z >= n) //when it is sorted
-        return;
-    // generation of random number
-    //typedef std::chrono::high_resolution_clock myclock;
-    //myclock::time_point beginning = myclock::now();
-    //myclock::duration d = myclock::now() - beginning;
-    //unsigned random = d.count();
+ * Devide vector S on elements which which are less than pivot and more than pvot. Return index of pivot
+ */
+int devide(std::vector<Elem>& S, int left, int right) {
+    //generation of random number
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<int> dis(left, right);
+    int randomIndex = dis(gen);
 
-    //int pivot = z + random % (n - z + 1); // choos pivot at random from range which is unsorted
+    //choose pivot at random
+    int pivotValue = S[randomIndex].getGrade();
+    std::swap(S[randomIndex], S[right]);
 
-    int pivot = n;
-    int pivotGrade = S[pivot].getGrade();
-   // std::swap(S[pivot],S[n]);
-    int l = z;
-    int r = n-1;
+    int i = left;
 
-    while (l<=r)
-    {
-        while (l <= r && pivotGrade >= S[l].getGrade())
-            l++; // find elemnet in left side which doesn't suit
-        while (l <= r && pivotGrade <= S[r].getGrade())
-            r--; // find elemnet in right side which doesn't suit
-        if(l<r)
-            std::swap(S[l],S[r]);
+    for (int j = left; j < right; j++) {
+        if (S[j].getGrade() < pivotValue) {
+            std::swap(S[i], S[j]);
+            i++;
+        }
     }
-    std::swap(S[l],S[n]);
-
-    quickSortStep(S, z, l - 1); // sort left side
-    quickSortStep(S, l+1, n); // sort right side
-
+    std::swap(S[i + 1], S[right]); // put pivot on its place
+    return i + 1; // return pivot index
 }
-
 /*!
-    Checks if in the vector is less the one element and calls quickSortStepp when is not
-*/
-void quickSort(std::vector<Elem>& S)
-{
-    int n = S.size();
-    if(n <= 1)
-        return; // finish when is less or equel than one element to sort
+ * Check if there is something to sort. If it is find pivot and sort elements less tham pivot,
+ * then sort elements
+ */
+void quickSort(std::vector<Elem>& S, int left, int right) {
+    if (left < right) {
+        int pi = devide(S, left, right);
 
-   quickSortStep(S, 0, n-1); // sort S with first and last elem
+        quickSort(S, left, pi - 1); // sort left part
+        quickSort(S, pi + 1, right); // sort right part
+    }
 }
+
